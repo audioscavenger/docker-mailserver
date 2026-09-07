@@ -98,7 +98,7 @@ $ file docker-data/dms/mail-data/example.com/john.doe/new/*
 
 > ```
 > dms dovecot: indexer-worker(john.doe@example.com)<1662><PLy3NgU3z2h8BgAAPDOPJQ:vWooFAY3z2h>: Error: Mailbox INBOX: UID=3: read(/var/mail/example.com/john.doe/cur/1758395999.M371909P1818.mail.example.com,S=30343,W=30821:2,S) failed: Cached message size larger than expected (30343 > 16567, box=INBOX, UID=3) (read reason=mail stream)
-> 
+>
 > dms dovecot: indexer-worker(john.doe@example.com)<1662><PLy3NgU3z2h8BgAAPDOPJQ:vWooFAY3z2h>: Error: Mailbox INBOX: Deleting corrupted cache record uid=3: UID 3: Broken physical size in mailbox INBOX: read(/var/mail/example.com/john.doe/cur/1758395999.M371909P1818.mail.example.com,S=30343,W=30821:2,S) failed: Cached message size larger than expected (30343 > 16567, box=INBOX, UID=3)
 > ```
 
